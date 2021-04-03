@@ -38,7 +38,7 @@ var newSwiper = new Swiper('.news-swiper .swiper-container', {
             spaceBetween: 0,
             slidesPerView: 3
         },
-        414 : {
+        376 : {
             direction: 'horizontal',
             loop: true,
             spaceBetween: 176,
