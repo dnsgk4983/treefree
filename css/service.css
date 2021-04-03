@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.service-bg {
+    width: 100%;
+}
+
+.second-re {
+    padding: 0 10rem;
+    height: 100vh;
+    background: url(../images/service/service.jpg)no-repeat;
+    background-size: 100%;
+    background-position: 0 bottom;
+}
+
+.service-bg .swiper-button-prev {
+    top: 33.0625rem;
+    left: 10rem;
+}
+.service-bg .swiper-button-next {
+    top: 33.0625rem;
+    right: 10rem;
+}
+
+.services .text-wrap {
+    margin-top: 24.625rem;
+}
+
+.services .text-wrap h4 {
+    letter-spacing: 4.8px;
+}
+.services .text-wrap p {
+    margin-top: 1.375rem;
+    letter-spacing: 1.05px;
+}
+.services .text-wrap a {
+    display: block;
+    margin-top: 0.6875rem;
+    letter-spacing: 1.05px;
+    color: #000;
+}

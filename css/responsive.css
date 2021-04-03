@@ -1,0 +1,571 @@
+@charset "utf-8";
+
+@media (max-width: 375px) {
+
+    /* Header responsive */
+    .header-wrap {
+        top: 3rem;
+        left: 2rem;
+    }
+
+    .tre-btn {
+        width: 5.125rem;
+        height: 2.125rem;
+        margin-top: 2.25rem;
+    }
+
+    .header-fix {
+        padding-top: 10rem;
+    }
+
+    .navi {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        display: block;
+        background: #000;
+        opacity: .9;
+        z-index: 100;
+        transition: .5s;
+    }
+
+    .navi>ul>li {
+        padding-left: 2rem;
+        margin-bottom: 2.875rem;
+    }
+
+    .navi>ul {
+        padding-top: 10rem;
+    }
+
+    .navi a {
+        position: relative;
+        font-family: 'berlin-b';
+        font-size: 1.5rem;
+        letter-spacing: 4.8px;
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .navi a:hover:before {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        content: "";
+        display: block;
+        height: 1px;
+        width: 14.3125rem;
+        border-bottom: 2px solid #b9ff4e;
+    }
+
+    .navi a:hover {
+        padding-left: 2.875rem;
+    }
+
+    .close-btn {
+        z-index: 100;
+        position: absolute;
+        top: 2.75rem;
+        right: 2rem;
+        font-size: 1.1875rem;
+        border: none;
+        color: #fff;
+        background: transparent;
+    }
+
+    /* Header responsive end */
+
+
+    /* Section responsive */
+    .section-fix {
+        display: none;
+    }
+
+    .main-wrap {
+        padding-left: 2rem;
+        padding-top: 10rem;
+        width: inherit;
+    }
+
+    .main-initial {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .main-initial img {
+        width: 8.438rem;
+    }
+
+    .main-wrap .swiper-container {
+        display: none;
+    }
+
+    /* Section responsive end */
+
+
+    /* sub-wrap responsive */
+    .sub-wrap {
+        position: relative;
+        padding-left: 2rem;
+        padding-bottom: 22.25rem;
+        margin-bottom: 0;
+    }
+
+    .sub-conts p {
+        line-height: 1.25rem;
+        margin-top: 2.25rem;
+        letter-spacing: 2.597px;
+        font-size: .875rem;
+    }
+
+    .triple-e {
+        position: absolute;
+        right: 2rem;
+        bottom: 2.75rem;
+        z-index: 1001;
+    }
+
+    .triple-e p {
+        line-height: .73rem;
+        font-size: 1rem;
+        letter-spacing: 2.815px;
+    }
+
+    .triple-e p::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        margin-top: 0.8125rem;
+        background: #b9ff4e;
+    }
+
+    .triple-e-menu {
+        display: none;
+        bottom: 2rem;
+        color: #fff;
+    }
+
+    /* sub-wrap responsive end */
+
+
+
+    /* about-wrap responsive */
+    .about-wrap {
+        padding: 0;
+        padding-top: 10rem;
+        padding-left: 2rem;
+        padding-right: 4.25rem;
+        margin-bottom: 12.25rem;
+    }
+
+    .under-title>h3 {
+        font-size: 2.25rem;
+        line-height: 3.375rem;
+    }
+
+    .divider-conts {
+        padding-left: 2rem;
+    }
+
+    .divider-conts h4 {
+        line-height: 1.5rem;
+        margin: 0;
+        flex-direction: column;
+        font-size: 0.96875rem;
+    }
+
+    .divider-conts p::after {
+        margin-bottom: .45rem;
+    }
+
+    .hand-wrap {
+        margin: 0;
+        padding: 0;
+        padding-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2.75rem;
+        justify-content: start;
+    }
+
+    .hand-wrap p::after {
+        display: none;
+    }
+
+    .hand-wrap h5 {
+        line-height: 1.125rem;
+        font-size: .75rem;
+    }
+
+    /* about-wrap responsive end */
+
+    /* service responsive */
+    .second-re {
+        padding: 0 2rem;
+        background: url(../images/service/m_service.jpg)no-repeat;
+        background-size: cover;
+    }
+
+    .service-bg .swiper-button-prev {
+        left: 1.25rem;
+        top: 50%;
+    }
+
+    .service-bg .swiper-button-next {
+        background-position: right center;
+        right: 1.25rem;
+        top: 50%;
+    }
+
+    .services .text-wrap {
+        margin-top: 38.9375rem;
+    }
+
+    .services .text-wrap h4 {
+        font-size: 1.5rem;
+        letter-spacing: 4.8px;
+    }
+
+    .services .text-wrap p {
+        margin-top: 1.25rem;
+        font-size: 0.875rem;
+        letter-spacing: normal;
+    }
+
+    .services .text-wrap a {
+        margin-top: .625rem;
+        font-size: 0.875rem;
+        letter-spacing: normal;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 2.75rem;
+    }
+
+    /*Recruit responsive*/
+    .container-recruit-wrap {
+        padding: 0;
+        padding-top: 10rem;
+        padding-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .b-title h1 {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    /*Recruit title responsive*/
+    .recruit-header {
+        margin: 0;
+        padding-left: 2rem;
+    }
+
+    .recruit-title h3 {
+        font-size: 1.25rem;
+    }
+
+    /*recruit-tab*/
+    .recruit-tab {
+        margin-top: 4.75rem;
+    }
+
+    .recruit-tab p {
+        font-size: 0.875rem;
+        letter-spacing: 0.7px;
+    }
+
+    .recruit-tab ul li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .recruit-tab ul li:nth-of-type(1) {
+        margin-right: 0.9375rem;
+    }
+
+    .recruit-tab ul li:nth-of-type(2) {
+        margin-right: 1rem;
+    }
+
+    .recruit-tab ul li:nth-of-type(3) {
+        margin-right: 0.9375rem;
+    }
+
+    .recruit-tab ul li.active p::after {
+        height: 4px;
+        margin-top: -3px;
+    }
+
+    /*recruit-body*/
+    .recruit-body {
+        position: relative;
+        margin-top: 4.5rem;
+        padding: 0;
+        background-color: #efefef;
+    }
+
+    .recruit-design {
+        top: -2.1875rem;
+        width: 7.125rem;
+        height: 7.125rem;
+    }
+
+    .recruit-conts {
+        padding-left: 2rem;
+    }
+
+    .recruit-works {
+        padding-top: 7.5625rem;
+    }
+
+    .recruit-conts h3 {
+        line-height: 2.25rem;
+        margin-bottom: 2.25rem;
+        font-size: 1rem;
+        letter-spacing: 0.8px;
+    }
+
+    .recruit-contst ul {
+        margin: 0;
+    }
+
+    .recruit-conts ul li {
+        line-height: 1.125rem;
+        margin: 0;
+        font-size: .75rem;
+        letter-spacing: 0.6px;
+    }
+
+    .recruit-conditions {
+        margin-top: 4.25rem;
+        padding-bottom: 4.6875rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recruit-conditions ul {
+        margin-top: 0;
+    }
+
+    .qualification {
+        margin-right: 2.5rem;
+    }
+
+    .treatment h3 {
+        margin-top: 4.25rem;
+    }
+
+    /* recruit-step */
+    .recruit-step {
+        padding-left: 2rem;
+        margin-top: 2.625rem;
+        overflow: hidden;
+    }
+
+    .step-wrap {
+        display: inherit;
+    }
+
+    .step-wrap h3 {
+        line-height: 2.25rem;
+        margin: 0;
+        margin-bottom: 2.1875rem;
+        font-size: 1rem;
+    }
+
+    .step-form {
+        margin-bottom: 4.25rem;
+    }
+
+    .step-form ul li {
+        font-size: .75rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.6px;
+    }
+
+    .step-wrap:nth-of-type(2) {
+        margin-bottom: 4.25rem;
+    }
+
+    .step-wrap:nth-of-type(2)>p {
+        font-size: 1.25rem;
+        letter-spacing: normal;
+    }
+
+    /* step-wrapper */
+    .step-wrapper ul {
+        margin-top: 2.1875rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .step-wrapper ul li {
+        width: inherit;
+    }
+
+    .step-wrapper h4 {
+        font-size: 1rem;
+        letter-spacing: 0.8px;
+        padding-bottom: 0rem;
+        padding-left: 3.875rem;
+        border-bottom: none;
+    }
+
+    .step-wrapper h4::after {
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: .25rem;
+        height: 1.5rem;
+    }
+
+    .step-wrapper h4:before {
+        position: absolute;
+        left: 0;
+        content: "";
+        display: block;
+        width: 1px;
+        height: 18.75rem;
+        background-color: #c5c5c5;
+    }
+
+    .step-wrapper span {
+        font-family: 'noto-r';
+        font-size: 0.875rem;
+        letter-spacing: 0.7px;
+        padding-top: 1.8125rem;
+        padding-left: 3.875rem;
+        padding-bottom: 3.25rem;
+        margin-top: 0rem;
+    }
+
+    .step-wrap:last-child {
+        margin-top: 0;
+        padding-bottom: 3.375rem;
+        padding-right: 2rem;
+    }
+
+    .step-wrap:last-child>p {
+        font-size: .75rem;
+        padding-left: 4.125rem;
+        letter-spacing: 0.6px;
+    }
+
+    .step-wrap.step-latest h3 {
+        display: none;
+    }
+
+
+
+    /* news */
+    .news-wrapper {
+        padding-top: 10rem;
+    }
+
+    .news-swiper {
+        margin-top: 4.875rem;
+        padding: 0 2rem;
+    }
+
+    .news-swiper .swiper-wrapper {
+        margin-left: 0;
+    }
+
+    .news-swiper .swiper-button-next,
+    .news-swiper .swiper-button-prev {
+        display: none;
+    }
+
+    .news-swiper .swiper-slide {
+        height: inherit !important;
+        margin-right: 0 !important;
+        margin-bottom: 3.25rem;
+    }
+
+    .news-swiper .swiper-slide:last-child {
+        margin-bottom: 0;
+    }
+
+    .news-title p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        letter-spacing: 0.8px;
+    }
+
+
+    /* contact */
+    .contact-wrap {
+        position: relative;
+        flex-direction: column;
+        padding: 0 2rem 15.125rem;
+    }
+
+    .contact-wrap::after {
+        content: "";
+        width: 1px;
+        height: 100%;
+        display: block;
+        position: absolute;
+        background-color: #dbdbdb;
+    }
+
+    .contact-title {
+        padding: 10rem 0 0;
+    }
+
+    .contact-title h1 {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .contact-info {
+        padding-top: 4.6875rem;
+    }
+
+    .contact-info::before {
+        display: none;
+    }
+
+    .contact-info h3 {
+        line-height: normal;
+        margin-bottom: 1.25rem;
+    }
+
+    .contact-info p {
+        font-size: .75rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.3px;
+    }
+
+
+
+    .m-d-none {
+        display: none;
+    }
+
+    .m-d-block {
+        display: block;
+    }
+
+
+
+
+
+    /* Footer responsive */
+    .footer-wrap {
+        padding: 3.75rem 2.625rem 4.0625rem 2rem;
+    }
+
+    .footer-wrap span {
+        line-height: 1.25rem;
+        letter-spacing: normal;
+        margin-right: .5rem;
+        font-size: .75rem;
+    }
+
+    /* Footer responsive end */
+}

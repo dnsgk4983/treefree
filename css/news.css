@@ -1,0 +1,25 @@
+@charset "utf-8";
+.news-wrapper {
+    padding-top: 24.625rem;
+}
+.news-swiper {
+    padding-left: 8rem;
+    margin-top: 8.3125rem;
+    margin-bottom: 4.875rem;
+}
+.news-swiper .swiper-wrapper {
+    margin-left: 2rem;
+}
+.news-swiper .swiper-button-next,
+.news-swiper .swiper-button-prev {
+    top: 37.5%;
+}
+
+.news-thumnail {
+    height: 10.875rem;
+    background: #efefef;
+}
+
+.news-title p {
+    margin-top: 1.875rem;
+}

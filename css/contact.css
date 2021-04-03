@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.contact-wrap {
+    display: flex;
+}
+.contact-title {
+    padding: 27.125rem 22.625rem 0 30.3125rem;
+}
+.contact-title h1 {
+    font-size: 2.625rem;
+    line-height: 3.75rem;
+    letter-spacing: 2.1px;
+    font-family: "noto-b";
+}
+
+.contact-info {
+    position: relative;
+    padding-top: 27.125rem;
+}
+.contact-info::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100vh;
+    background-color: #dbdbdb;
+}
+
+.contact-info h3 {
+    font-family: 'noto-b';
+    font-size: 1.125rem;
+    line-height: 3rem;
+    letter-spacing: 0.45px;
+    margin-bottom: 1.875rem;
+}
+.contact-info p {
+    font-family: 'noto-r';
+    font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.35px;
+    margin-bottom: 2.6875rem;
+}

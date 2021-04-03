@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* Noto Sans Regular */
+@font-face {
+    font-family: 'noto-r';
+    font-weight: 400;
+    src: url(../fonts/NotoSansKR-Regular.eot);
+    src: url(../fonts/NotoSansKR-Regular.eot) format('embedded-opentype'),
+        url(../fonts/NotoSansKR-Regular.otf) format('opentype'),
+        url(../fonts/NotoSansKR-Regular.ttf) format('truetype'),
+        url(../fonts/NotoSansKR-Regular.woff) format('woff'),
+        url(../fonts/NotoSansKR-Regular.woff2) format('woff2');
+}
+
+/* Noto Sans Bold */
+@font-face {
+    font-family: 'noto-b';
+    font-weight: 700;
+    src: url(../fonts/NotoSansKR-Bold.eot);
+    src: url(../fonts/NotoSansKR-Bold.eot) format('embedded-opentype'),
+        url(../fonts/NotoSansKR-Bold.otf) format('opentype'),
+        url(../fonts/NotoSansKR-Bold.ttf) format('truetype'),
+        url(../fonts/NotoSansKR-Bold.woff) format('woff'),
+        url(../fonts/NotoSansKR-Bold.woff2) format('woff2');
+}
+
+/* Berlin Regular */
+@font-face {
+    font-family: 'berlin';
+    font-weight: 400;
+    src: url(../fonts/Berlin.eot);
+    src: url(../fonts/Berlin.eot) format('embedded-opentype'),
+        url(../fonts/Berlin.otf) format('opentype'),
+        url(../fonts/Berlin.ttf) format('truetype'),
+        url(../fonts/Berlin.woff) format('woff'),
+        url(../fonts/Berlin.woff2) format('woff2');
+}
+
+/* Berlin Bold */
+@font-face {
+    font-family: 'berlin-b';
+    font-weight: 700;
+    src: url(../fonts/Berlin\ Bold.eot);
+    src: url(../fonts/Berlin\ Bold.eot) format('embedded-opentype'),
+        url(../fonts/Berlin\ Bold.otf) format('opentype'),
+        url(../fonts/Berlin\ Bold.ttf) format('truetype'),
+        url(../fonts/Berlin\ Bold.woff) format('woff'),
+        url(../fonts/Berlin\ Bold.woff2) format('woff2');
+}
+
+/* Berlin X-Bold */
+@font-face {
+    font-family: 'berlin-xb';
+    font-weight: 900;
+    src: url(../fonts/Berlin\ X-Bold.eot);
+    src: url(../fonts/Berlin\ X-Bold.eot) format('embedded-opentype'),
+        url(../fonts/Berlin\ X-Bold.otf) format('opentype'),
+        url(../fonts/Berlin\ X-Bold.ttf) format('truetype'),
+        url(../fonts/Berlin\ X-Bold.woff) format('woff'),
+        url(../fonts/Berlin\ X-Bold.woff2) format('woff2');
+}

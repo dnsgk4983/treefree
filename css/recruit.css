@@ -1,0 +1,153 @@
+@charset "utf-8";
+.container-recruit-wrap {
+    padding-top: 24.625rem;
+}
+.recruit-header {
+    margin-left: 39.375rem;
+    margin-top: 8rem;
+}
+
+.recruit-tab {
+    margin-top: 6rem;
+}
+.recruit-tab ul {
+    display: flex;
+    align-content: center;
+}
+.recruit-tab ul li {
+    font-size: 1.5rem;
+    font-family: "berlin";
+    line-height: 2.25rem;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+.recruit-tab ul li:not(:last-child) {
+    margin-right: 10rem;
+}
+
+.recruit-tab ul li.active p::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #b9ff4e;
+}
+
+.recruit-body {
+    position: relative;
+    margin-top: 1.25rem;
+    padding: 5rem 14rem 11rem 39.375rem;
+    background-color: #efefef;
+}
+.recruit-design {
+    position: absolute;
+    left: 0;
+    top: -4.5rem;
+    width: 29rem;
+    height: 29rem;
+    background-color: #999;
+}
+.recruit-conts h3 {
+    font-family: "noto-b";
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 1.2px;
+}
+.recruit-conts ul {
+    margin-top: 3.375rem;
+    padding-left: .75rem;
+}
+.recruit-conts ul li {
+    font-size: 1rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.8px;
+    font-family: 'noto-r';
+}
+.recruit-conts ul li::marker {
+    content: "- ";
+}
+
+.recruit-content {
+    display: none;
+}
+.recruit-content.show {
+    display: block;
+}
+
+.recruit-conditions {
+    display: flex;
+    align-content: center;
+    margin-top: 5.625rem;
+}
+.qualification {
+    margin-right: 11.0625rem;
+}
+
+.recruit-step {
+    margin-top: 8.125rem;
+}
+.step-wrap {
+    display: flex;
+}
+.step-wrap h3 {
+    display: block;
+    width: 27.5%;
+    font-family: 'noto-b';
+    font-size: 1.5rem;
+    line-height: 3.25rem;
+    margin: 0 0 18.625rem 10rem;
+}
+
+.recruit-step .mg-0 h3 {
+    margin-bottom: 0;
+}
+
+.step-wrap > *:last-child {
+    width: 73.8%;
+}
+.step-form ul {
+    padding-left: .75rem;
+}
+.step-form ul li {
+    font-family: "noto-r";
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.8px;
+}
+.step-form ul li::marker {
+    content: "- ";
+}
+
+.step-wrapper ul {
+    display: flex;
+    width: 100%;
+}
+.step-wrapper ul li {
+    width: 25%;
+}
+.step-wrapper h4 {
+    position: relative;
+    font-family: "noto-b";
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding-bottom: 2.25rem;
+    border-bottom: 1px solid #c5c5c5;
+}
+.step-wrapper h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 7rem;
+    height: 5px;
+    background-color: #c5c5c5;
+}
+.step-wrapper span {
+    font-family: 'noto-b';
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 1.2px;
+    margin-top: 3.875rem;
+}
