@@ -22,32 +22,18 @@ var swiper = new Swiper('.main-wrap .swiper-container' , {
     }
 });
 
-var newSwiper = new Swiper('.news-swiper .swiper-container', {
-    autoplay: false,
-    loop: true, 
-    spaceBetween: 176,
-    slidesPerView: 3,
-    navigation : {
-        nextEl : ".swiper-button-next",
-        prevEl : ".swiper-button-prev"
-    },
-    breakpoints : {
-        767 : {
-            direction: 'vertical',
-            loop: false,
-            spaceBetween: 0,
-            slidesPerView: 3,
-            clickable: false
+if ($(window).width() > 768) {
+    var newSwiper = new Swiper('.news-swiper .swiper-container', {
+        autoplay: false,
+        loop: true, 
+        spaceBetween: 176,
+        slidesPerView: 3,
+        navigation : {
+            nextEl : ".swiper-button-next",
+            prevEl : ".swiper-button-prev",
         },
-        768 : {
-            direction: 'horizontal',
-            loop: true,
-            spaceBetween: 176,
-            slidesPerView: 3,
-            clickable: true,
-        },
-    },
-});
+    });
+}
 
 
 

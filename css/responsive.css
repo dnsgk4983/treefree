@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
 
     /* Header responsive */
     .header-wrap {
@@ -462,6 +462,11 @@
 
 
     /* news */
+    .news-swiper .swiper-container {
+        width: inherit;
+        height: inherit;
+        overflow: inherit;
+    }
     .news-wrapper {
         padding-top: 10rem;
     }
@@ -472,6 +477,7 @@
     }
 
     .news-swiper .swiper-wrapper {
+        display: block;
         margin-left: 0;
     }
 
