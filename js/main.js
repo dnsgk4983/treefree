@@ -32,14 +32,14 @@ var newSwiper = new Swiper('.news-swiper .swiper-container', {
         prevEl : ".swiper-button-prev"
     },
     breakpoints : {
-        768 : {
+        767 : {
             direction: 'vertical',
             loop: false,
             spaceBetween: 0,
             slidesPerView: 3,
             clickable: false
         },
-        769 : {
+        768 : {
             direction: 'horizontal',
             loop: true,
             spaceBetween: 176,
