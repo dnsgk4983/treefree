@@ -1,14 +1,16 @@
 // 메뉴
-$(".tre-btn").click(function(){
-    $(".navi").css("right","0");
-    $(".triple-e").css("display","none");
-    $(".triple-e-menu").css("display","block");
-});
-$(".close-btn").click(function(){
-    $(".navi").css("right","-100%");
-    $(".triple-e").css("display","block");
-    $(".triple-e-menu").css("display","none");
-});
+if ($(window).width > 768 ) {
+    $(".tre-btn").click(function(){
+        $(".navi").css("right","0");
+        $(".triple-e").css("display","none");
+        $(".triple-e-menu").css("display","block");
+    });
+    $(".close-btn").click(function(){
+        $(".navi").css("right","-100%");
+        $(".triple-e").css("display","block");
+        $(".triple-e-menu").css("display","none");
+    });
+}
 
 
 var swiper = new Swiper('.main-wrap .swiper-container' , {
@@ -19,6 +21,20 @@ var swiper = new Swiper('.main-wrap .swiper-container' , {
     navigation : {
         nextEl : ".swiper-button-next",
         prevEl : ".swiper-button-prev"
+    },
+    breakpoints : {
+        1240 : {
+            slidesPerView: 3,
+            spaceBetween: 100,
+        },
+        1024 : {
+            slidesPerView: 2,
+            spaceBetween: 60
+        },
+        768 : {
+            slidesPerView: 2,
+            spaceBetween: 60
+        }
     }
 });
 
@@ -31,6 +47,12 @@ if ($(window).width() > 768) {
         navigation : {
             nextEl : ".swiper-button-next",
             prevEl : ".swiper-button-prev",
+        },
+        breakpoints : {
+            1024 : {
+                spaceBetween: 80,
+                slidesPerView: 2,
+            },
         },
     });
 }

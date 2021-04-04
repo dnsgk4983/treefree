@@ -1,5 +1,190 @@
 @charset "utf-8";
 
+@media (max-width: 1440px) {
+
+    .sec-pd {
+        padding-top: 18rem;
+    }
+    .container-wrap {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    .header-wrap {
+        top: 12rem;
+        left: 5rem;
+    }
+
+    .main-initial {
+        padding-left: 5rem;
+        padding-right: 10rem;
+    }
+
+    /* about */
+    .about-wrap {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .divider-conts h4 {
+        margin-right: 5rem;
+    }
+    .hand-wrap {
+        margin-right: 5rem;
+    }
+
+    /* service */
+    .second-re {
+        padding: 0 5rem;
+    }
+    .services .text-wrap {
+        margin-top: 20rem;
+    }
+    .service-bg .swiper-button-prev {
+        left: 5rem;
+        top: 28rem;
+    }
+    .service-bg .swiper-button-next {
+        right: 5rem;
+        top: 28rem;
+    }
+
+    /* news */
+    .b-title > * {
+        font-size: 5rem;
+    }
+    .news-swiper {
+        margin-top: 6.25rem;
+        padding-left: 5rem;
+    }
+
+    /* recruit */
+    .recruit-header {
+        margin-left: 32.5rem;
+        margin-top: 5rem;
+    }
+    .recruit-tab {
+        margin-top: 3rem;
+    }
+    .recruit-tab ul li:not(:last-child) {
+        margin-right: 3rem;
+    }
+
+    .recruit-body {
+        padding-right: 5rem;
+        padding-left: 32.5rem;
+        padding-bottom: 7rem;
+    }
+    .step-wrap h3 {
+        width: 35.5rem;
+        margin: 0 0 7.5rem 5rem;
+    }
+    .recruit-design {
+        width: 25rem;
+        height: 25rem;
+    }
+    .recruit-conts ul {
+        margin-top: 1.5rem;
+    }
+    .recruit-conditions {
+        margin-top: 2.5rem;
+    }
+    .qualification {
+        margin-right: 7.5rem;
+    }
+
+    /* contact */
+    .contact-title {
+        padding: 20rem 16rem 0 20rem;
+    }
+    .contact-info {
+        padding-top: 20rem;
+    }
+    .contact-info h3 {
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-wrap {
+        padding: 3.75rem 5rem;
+    }
+}
+
+/* width: 768 */
+@media (max-width: 768px) {
+    .header-wrap {
+        top: 8rem;
+    }
+
+    .main-initial {
+        padding-right: 5rem;
+    }
+
+
+    .news-swiper {
+        margin-top: 4rem;
+        padding: 0 5rem;
+    }
+    .news-swiper .swiper-wrapper {
+        display: block;
+        margin-left: 0;
+    }
+
+    .news-swiper .swiper-button-next,
+    .news-swiper .swiper-button-prev {
+        display: none;
+    }
+
+    .news-swiper .swiper-slide {
+        height: inherit !important;
+        margin-right: 0 !important;
+        margin-bottom: 3.25rem;
+    }
+
+    .news-swiper .swiper-slide:last-child {
+        margin-bottom: 0;
+    }
+
+
+    .recruit-design {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+    .recruit-header {
+        margin-left: 14.5rem;
+    }
+    .recruit-tab ul li {
+        font-size: 1.25rem;
+    }
+    .recruit-tab ul li:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+    .recruit-body {
+        padding-left: 14.5rem;
+    }
+    .qualification {
+        margin-right: 3.5rem;
+    }
+    .step-wrap h3 {
+        width: 10.25rem;
+    }
+    .step-wrapper h4::after {
+        width: 3.5rem;
+    }
+    .step-wrapper span {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+    .mt-60 {
+        margin-top: 3rem;
+    }
+
+
+    .contact-title {
+        padding: 20rem 7.5rem 0 5rem;
+    }
+}
+
+/* width: 640 */
 @media (max-width: 640px) {
 
     /* Header responsive */
@@ -474,26 +659,6 @@
     .news-swiper {
         margin-top: 4.875rem;
         padding: 0 2rem;
-    }
-
-    .news-swiper .swiper-wrapper {
-        display: block;
-        margin-left: 0;
-    }
-
-    .news-swiper .swiper-button-next,
-    .news-swiper .swiper-button-prev {
-        display: none;
-    }
-
-    .news-swiper .swiper-slide {
-        height: inherit !important;
-        margin-right: 0 !important;
-        margin-bottom: 3.25rem;
-    }
-
-    .news-swiper .swiper-slide:last-child {
-        margin-bottom: 0;
     }
 
     .news-title p {

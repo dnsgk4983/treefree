@@ -8,8 +8,8 @@
     padding: 0 10rem;
     height: 100vh;
     background: url(../images/service/service.jpg)no-repeat;
-    background-size: 100%;
-    background-position: 0 bottom;
+    background-size: cover;
+    background-position: center bottom;
 }
 
 .service-bg .swiper-button-prev {
