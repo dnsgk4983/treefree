@@ -1,5 +1,5 @@
 // 메뉴
-if ($(window).width > 768 ) {
+if ($(window).width > 640 ) {
     $(".tre-btn").click(function(){
         $(".navi").css("right","0");
         $(".triple-e").css("display","none");
@@ -101,24 +101,3 @@ $(".recruit-tab li:nth-child(4)").click(function() {
     $(this).addClass("active");
     $(".recruit-content-4").addClass("show");
 });
-
-window.addEventListener("load",ToggleSlider);
-function ToggleSlider() {
-    var w = window.innerWidth;
-    var container = document.getElementsByClassName("swiper-container");
-    if ( w < 375) { 
-        var newSwiper = new Swiper('.news-swiper .swiper-container', {
-            autoplay: false,
-            loop: true, 
-            spaceBetween: 176,
-            slidesPerView: 3,
-            navigation : {
-                nextEl : ".swiper-button-next",
-                prevEl : ".swiper-button-prev"
-            },
-        });
-    }
-    else {
-        delete Swiper
-    }
-}
