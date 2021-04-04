@@ -49,6 +49,10 @@ if ($(window).width() > 768) {
             prevEl : ".swiper-button-prev",
         },
         breakpoints : {
+            1240 : {
+                spaceBetween: 100,
+                slidesPerView: 3
+            },
             1024 : {
                 spaceBetween: 80,
                 slidesPerView: 2,
