@@ -1,17 +1,16 @@
 // 메뉴
-if ($(window).width > 640 ) {
+$(function () {
     $(".tre-btn").click(function(){
-        $(".navi").css("right","0");
+        $(".navi").css("left","0");
         $(".triple-e").css("display","none");
         $(".triple-e-menu").css("display","block");
     });
     $(".close-btn").click(function(){
-        $(".navi").css("right","-100%");
+        $(".navi").css("left","-100%");
         $(".triple-e").css("display","block");
         $(".triple-e-menu").css("display","none");
     });
-}
-
+})
 
 var swiper = new Swiper('.main-wrap .swiper-container' , {
     autoplay: false,

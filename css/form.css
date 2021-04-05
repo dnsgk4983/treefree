@@ -189,7 +189,8 @@
         margin: 0 !important;
     }
     .container-wrap {
-        padding: 0 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .b-title > * {
         font-size: 2.5rem;
